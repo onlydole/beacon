@@ -3,3 +3,4 @@ MAINTAINER "Taylor Dolezal <onlydole@hey.com>"
 
 COPY index.html  /usr/share/nginx/html/
 COPY app.conf /etc/nginx/conf.d/default.conf
+COPY status.conf /etc/nginx/conf.d/status.conf
